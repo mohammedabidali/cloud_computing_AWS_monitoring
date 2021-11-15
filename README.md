@@ -14,6 +14,16 @@
 - Errors: are the rate of requests that are failing
 - Saturation: is how "full" your service is
 
+## Amazon services that can be monitored using Cloudwatch
+- EC2 Instances
+- Auto-Scaling
+- Load Balancer
+- Amazon SNS
+- Amazon SQS
+- Amazon RDS
+- Amazon S3
+- DynamoDB
+
 ## Automate the process
 - Application Load Balancer (ALB)
 - Autoscaling Group
@@ -21,7 +31,14 @@
 - 2 instances - Min=2 abd Max=3
 - Policices of scaling out - and scaling in to Min=2 instances
 
-Scaling on Demand
-Scaling up vs Scaling out
+- Scaling on Demand
+- Scaling up vs Scaling out
 Scaling up: increasing the size of your instance
 Scaling out = adding more of the same components in parallel to spread out a load. Scaling up = making a component bigger or faster so that it can handle more load.
+
+## Types of notifications sent once alarm goes off
+- Lambda
+- SQS   
+- HTTP/s
+- Email
+- SMS
