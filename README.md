@@ -1,5 +1,13 @@
 # Monitoring
 
+## Questions to ask before monitoring
+- What should we monitor
+- What resources will we monitor
+- How often should we monitor
+- What tools are we going to use to perform these tasks
+- Who will perform these tasks
+- Who should be notified in an emergency if something goes wrong
+
 ## 4 Golden signals of monitoring
 - Latency: is the time that it takes to service a request
 - Traffic: is the amount of activity in the application
