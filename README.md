@@ -11,6 +11,7 @@
 - Who should be notified in an emergency if something goes wrong
 
 ## 4 Golden signals of monitoring
+![](images/4_golden_signals_monitoring.png)
 - Latency: is the time that it takes to service a request
 - Traffic: is the amount of activity in the application
 - Errors: are the rate of requests that are failing
