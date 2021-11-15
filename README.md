@@ -1,5 +1,7 @@
 # Monitoring
 
+![](images/monitoring.png)
+
 ## Questions to ask before monitoring
 - What should we monitor
 - What resources will we monitor
